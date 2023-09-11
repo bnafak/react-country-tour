@@ -3,3 +3,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap:10px;
 }
+
+.visited{
+    background-color: rgb(240, 225, 206);
+    color: rgb(54, 17, 241);
+}
