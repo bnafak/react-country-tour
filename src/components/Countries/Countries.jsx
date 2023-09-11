@@ -17,14 +17,17 @@ const Countries = () => {
 
     const handleVisitedCountry = country => {
         console.log('add this to your visited country');
-        console.log(country);
+        // console.log(country);
+        // visitedCountries.push(country);
+        const newVisitedCountries=[...visitedCountries, country];
+        setVisitedCountries(newVisitedCountries);
     }
 
     return (
         <div >
             <h3>Countries:{countries.length}</h3>
             <div>
-            <h4>Visited Countries: </h4>
+            <h4>Visited Countries:{visitedCountries.length} </h4>
             <ul>
 
             </ul>
